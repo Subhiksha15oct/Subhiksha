@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap Card</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      </head>
+  
+  
+<style>
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.name {
+  column-count: 2;
+  column-gap: 40px;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border:3px solid #555 ;
+  
+}
+</style>
+  <body style=font-size:large;font-family:consolas,sans-serif;color: whitesmoke;>
+    <div class="w3-display-topleft w3-padding-large w3-xlarge">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#news">News</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+             
+            </div>
+            <li><a href="#home">Home</a></li>
+          </li>
+        </ul>
+    </div>
+    
+    </div>
+    <div class="w3-row" id="myGrid" style="padding-top: 50px;padding-right: 25px;padding-left: 25px;">
+      <div class="w3-third">
+        <img src="https://i.pinimg.com/736x/3c/fa/0d/3cfa0d081330ba1ef5f0bc617af83813.jpg" style="width:300px;height: 250px;">
+        <img src="https://render.fineartamerica.com/images/images-profile-flow/400/images-medium-large-5/113-untitled-frank-cotham.jpg" 
+        style="width:150px;height: 300px;">
+        <img src="https://render.fineartamerica.com/images/images-profile-flow/400/images-medium-large-5/three-policemen-are-seen-standing-around-a-dead-david-sipress.jpg" 
+        style="width:250px;height:350px;">
+        <img src="https://thepulp.net/thatspulp/files/2017/09/body.jpg" style="width:400px;height:300px;">
+        <img src="  https://www.pngitem.com/pimgs/m/277-2777602_mine-queue-fanart-snk-shingeki-no-kyojin-attack.png" 
+        style="width:300px;height:300px;">
+        
+      </div>
+      <div class="w3-third">
+        <img src="https://ndownloader.figshare.com/files/13513724/preview/13513724/preview.jpg " 
+        style="width:350px;height: 259px;">
+        <img src="https://wedc-knowledge.lboro.ac.uk/resources/graphics/DEAD/RJS_ART_DEAD_Disposal_of_dead_bodies_after_the_genocide_in_Rwanda.jpg " 
+        style="width:350px;height: 250px;">
+        <img src="https://wedc-knowledge.lboro.ac.uk/resources/graphics/DEAD/RJS_ART_DEAD_Dead_bodies.jpg " style="width:450px;height: 200px;">
+        <img src="https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/1/1-after-the-original-drawing-by-gustave-ken-welsh.jpg " 
+        style="width:250px;height: 300px;">
+     
+
+      </div>
+    </div>
+    <br><br><br><br><br><br>
+
+    <div style="text-align: center;">
+      <h1>SIGN IN FOR INDIVIDUAL</h1>
+
+    </div>
+    
+    <div class="name" style="padding-left: ;padding-right:100px ;">
+
+      <br>
+      <form style="font-weight: bold;font-size: large;margin-top: 100px;margin-bottom: 
+       margin-right: 100px;margin-left: 60px;"><br><br>
+        <label for="fname" >Username</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="pwd">Password</label>
+        <input type="password" id="pwd" name="pwd"><br><br>
+        
+        <label for="fname" >Email ID</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <label for="lname">Organization Name</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="pwd" >Password</label>
+        <input type="password" id="pwd" name="pwd"><br><br>
+        <label for="lname">Organization Email ID</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit">
+        
+
+
+      </form>
+    </div>
+
+    
+    <br><br><br><br><br><br><br><br><br><br>
+    <footer style="background-color:black;height: 200 px;">
+        <div class="container" style="padding-top: 35px;padding-bottom: 35px;" >
+            <div class="card-deck">
+                <div class="card ">
+                  <div class="card-body text-center" style="background-color:whitesmoke;">
+                    <p class="card-text">Some text inside the first card</p>
+                    <p class="card-text">Some more text to increase the height</p>
+                    
+                  </div>
+                  <img class="card-img-bottom" src="https://etc.usf.edu/clipart/54200/54294/54294_carry-man_lg.gif"
+                  alt="Card image" style="width:100%;height: 200px;">
+                </div>
+                <div class="card " style="background-color:whitesmoke;">
+                  <div class="card-body text-center">
+                    <p class="card-text">Some text inside the second card</p>
+                  </div>
+                  <img class="card-img-top" src="https://media.gettyimages.com/illustrations/victorian-men-finding-a-dead-body-illustration-id1223031196?s=612x612" 
+                  alt="Card image" style="width:100%;height: 200px;">
+                </div>
+                <div class="card" style="background-color: whitesmoke;">
+                  <div class="card-body text-center">
+                    <p class="card-text">Some text inside the third card</p>
+                  </div>
+                  <img class="card-img-bottom" src="https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/1/the-british-army-find-tewodros-s-body-ken-welsh.jpg" 
+                  alt="Card image" style="width:100%;height: 200px;">
+                </div>
+                <div class="card" style="background-color: whitesmoke;">
+                  <div class="card-body text-center">
+                    <p class="card-text">Some text inside the fourth card</p>
+                  </div>
+                  <img class="card-img-top" src="https://thepulp.net/thatspulp/files/2017/09/body.jpg" alt="Card image" style="width:100%;height: 200px;">
+                </div>  
+            </div>
+        </div>
+            
+
+    
+    </footer>
+    
+        
+  </body>
+</html>
